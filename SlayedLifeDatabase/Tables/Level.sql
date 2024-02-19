@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Level]
+(
+	[Id] INT NOT NULL PRIMARY KEY INDEX PK_Level_Id,
+	[name] VARCHAR(30) NOT NULL,
+	[active] BIT NOT NULL
+)

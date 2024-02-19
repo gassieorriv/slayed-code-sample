@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[StateTax]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1) INDEX Pk_StateTax_Id,
+	[Name] VARCHAR(10) NOT NULL UNIQUE,
+	[Percent] DECIMAL (18,2) NOT NULL
+)

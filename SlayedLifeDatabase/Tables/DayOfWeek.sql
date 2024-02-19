@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[DayOfWeek]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Day] VARCHAR(12) NOT NULL
+)

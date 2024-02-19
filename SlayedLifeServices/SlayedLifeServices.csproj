@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Google.Apis.PeopleService.v1" Version="1.51.0.2301" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SlayedLifeCore\SlayedLifeCore.csproj" />
+    <ProjectReference Include="..\SlayedLifeRepo\SlayedLifeRepo.csproj" />
+  </ItemGroup>
+
+</Project>

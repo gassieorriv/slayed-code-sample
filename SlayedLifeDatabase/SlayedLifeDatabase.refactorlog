@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="416c59da-7f5b-4a66-a64f-111fab939bda" ChangeDateTime="03/26/2021 01:45:36">
+    <Property Name="ElementName" Value="[dbo].[SocialMediaUser].[UserId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SocialMediaUser]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="userId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bda286a5-4997-4b3e-b4d4-72f2c351ca52" ChangeDateTime="04/15/2021 23:16:47">
+    <Property Name="ElementName" Value="[dbo].[SocialMediaUser].[t]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SocialMediaUser]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="twitterToken" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="714a1912-6f1d-4581-8a32-963530a01a3a" ChangeDateTime="05/13/2021 03:04:48">
+    <Property Name="ElementName" Value="[dbo].[UserPaymentAccount].[createdDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserPaymentAccount]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="created" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa2c4874-5ab0-461e-a46a-d90bae3f0000" ChangeDateTime="06/08/2021 20:56:43">
+    <Property Name="ElementName" Value="[dbo].[UserSchedule].[userId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserSchedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+</Operations>

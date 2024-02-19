@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[SocialAccount]
+(
+	[Id] INT NOT NULL PRIMARY KEY INDEX PK_Account,
+	[Name] VARCHAR(100) NOT NULL
+)
